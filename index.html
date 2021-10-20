@@ -1,5 +1,5 @@
 <html lang="en">
-    <head>
+<head>
         <meta charset="UFT-8" />
         <title>Run Buddy</title>
         <link rel="stylesheet" href=./assets/style.css>
@@ -8,7 +8,9 @@
     <body>
         <!--navigation-->
         <header>
-            <h1>RUNBUDDY</h1>
+            <h1>
+                <a href="/">RUN BUDDY</a>
+            </h1>
             <nav>
                 <ul>
                     <li>
@@ -17,13 +19,13 @@
                     <li>
                         <a href="#what-you-do">What You Do</a>
                     </li>
+                    <li>
+                        <a href="your-trainers">Your Trainers</a>
+                    </li>
+                    <li>
+                        <a href="#reach-out">Reach Out</a>
+                    </li>
                 </ul>
-                <li>
-                    <a href="your-trainers">Your Trainers</a>
-                </li>
-                <li>
-                    <a href="#reach-out">Reach Out</a>
-                </li>
             </nav>
         </header>
 
@@ -32,12 +34,27 @@
             <div>
                 <h3>Get Started Today</h3>
                 <p>Fill out this form and one of our trainers will schedule a consult</p>
+            <form>
+                <label for="name">Enter full name:</label>
+                <input type="text" placeholder="Your Name" name="name" id="name" />
+                <label for="email">Enter email address:</label>
+                <input type="text" placeholder="Email Address" name="email" id="email"/>
+                <label for="phone">Enter a telephone number:</label>
+                <input type="text" placeholder="Phone Number" name="phone" id="phone"/>
+                <p>
+                    Have you worked out with a trainer before?
+                    <label for="trainer-yes">Yes</label>
+                    <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                    <label for="trainer-no">No</label>
+                    <input type="radio" name="trainer-confirm" id="trainer-no" />
+                </p>
+            </form>
             </div>
         </section>
 
         <!--"what we do" section-->
         <section>
-        <h2>What We Do <br>What You Do<br>Your Trainers<br>Reach Out🏃</h2>
+        <h2>What We Do What You Do Your Trainers Reach Out🏃</h2>
         </section>         
         
         <!--"what you do" section-->
@@ -58,6 +75,11 @@
         <!-- footer-->
         <footer>
             <h2>❤️ Made with love by Run Buddy.</h2>
+            <div>
+                <a href="#">Read Our Privacy Policy</a><br />
+                &copy; 2019 Rub Buddy,
+            </div>
+            </div>
         </footer>
 
     </body>
