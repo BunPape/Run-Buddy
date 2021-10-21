@@ -21,36 +21,36 @@ header {
   background-color: #39a6b2;
 }
 
-header h1 {
-  font-weight: bold;
-  font-size: 36px;
-  color: #fce138;
-  margin: 0;
-  display: inline;
-  padding: 30px;
-}
+    header h1 {
+      font-weight: bold;
+      font-size: 36px;
+      color: #fce138;
+      margin: 0;
+      display: inline;
+      padding: 30px;
+    }
 
-header a {
-  text-decoration: none;
-  color: #fce138;
-}
+    header a {
+      text-decoration: none;
+      color: #fce138;
+    }
 
-/* Header nav*/
-header nav {
-  float: right;
-  margin: 7px 0;
-  min-width: none;
-}
+    /* Header nav*/
+    header nav {
+      float: right;
+      margin: 7px 0;
+      min-width: none;
+    }
 
-header nav ul li {
-  display: inline;
-}
+        header nav ul li {
+          display: inline;
+        }
 
-header nav ul li a {
-  margin: 0 30px;
-  font-weight: lighter;
-  font-size: 22px;
-}
+        header nav ul li a {
+          margin: 0 30px;
+          font-weight: lighter;
+          font-size: 22px;
+        }
 
  /* Footer */
 footer {
@@ -93,57 +93,94 @@ footer div {
   right: 140px;
 }
 
-.hero-form h3 {
-  font-size: 24px;
-  margin: 0;
-}
+      .hero-form h3 {
+        font-size: 24px;
+        margin: 0;
+      }
 
-.hero-form p {
-  margin: 5px 0 15px;
-}
+      .hero-form p {
+        margin: 5px 0 15px;
+      }
 
-.form-input {
-  border: 1px solid #024e76;
-  display: block;
-  padding: 7px 15px;
-  font-size: 16px;
-  color: #024e76;
-  width: 100%;
-  margin-bottom: 15px;
-}
+      .form-input {
+        border: 1px solid #024e76;
+        display: block;
+        padding: 7px 15px;
+        font-size: 16px;
+        color: #024e76;
+        width: 100%;
+        margin-bottom: 15px;
+      }
 
-.hero-form label {
-  margin: 0 5px;
-}
+      .hero-form label {
+        margin: 0 5px;
+      }
 
-.hero-form button {
-  color: #fce138;
-  background-color: #034e76;
-  border: none;
-  padding: 10px 20px;
-  font-size: 16px;
-}
+      .hero-form button {
+        color: #fce138;
+        background-color: #034e76;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+      }
 /* Hero Style End */
 
 /* Intro Stlye */
 .intro {
   text-align: center;
-  }
+  }     
+        .intro p {
+          margin: 0 auto;
+          line-height: 1.7;
+          color: #39a6b2;
+          width: 80%;
+          font-size: 20px;
+        }
+  /* Intro Style End */
 
-.intro h2 {
-  display: inline-block;
+  /* Steps Style */
+.steps {
+  text-align: center;
+  background: #fce138;
+}
+
+.steps span {
+  font-size: 38px;
+}
+
+.steps div {
+  margin-bottom: 80px;
+}
+
+.steps img {
+  width: 15%;
+  margin: 10px 0;
+}
+
+.steps h3 {
+  color: #024e76;
+  font-size: 46px;
+  margin-top: 10px;
+}
+
+.steps p {
+  color: #39a6b2;
+  font-size: 23px;
+}
+
+.section-title {
   font-size: 55px;
   color: #024e76;
   margin-bottom: 35px;
   padding: 0 100px 20px 100px;
+  display: inline-block;
   border-bottom: 3px solid;
+}
+
+.primary-border {
   border-color: #fce138;
-  }
-  
-  .intro p {
-    margin: 0 auto;
-    line-height: 1.7;
-    color: #39a6b2;
-    width: 80%;
-    font-size: 20px;
-  }
+}
+
+.secondary-border {
+  border-color: #39a6b2;
+}
